@@ -4,7 +4,6 @@ const auth = require('../controllers/authentication/index')
 const session = require('../middleware/session')
 const user = require('../controllers/user/index')
 const iap = require('../controllers/webhooks/iap')
-const payments = require('../controllers/payments/index')
 
 //AUTHENTICATION
 // router.post('/auth/sign-in', auth.sign_in)
