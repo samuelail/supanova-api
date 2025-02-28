@@ -1,6 +1,6 @@
 const subscription_helper = require('./subscription-helper')
 const db_helper = require('../../general/db-helper')
-const stripe = require('stripe')('sk_test_51Q5UlkBOkD8roGay4xLGr6c7bC8RGaWlv1VfpOs3DdToqRFXGTB5eUFtnIvp55d4xrjxJLRkfmJ7c3zVyugv60TS000rgDnEgE');
+const stripe = require('stripe')(process.env.STRIPE_SK);
 
 exports.verify_receipt = async (req, res) => {
     const receipt_data = req.body.receipt
