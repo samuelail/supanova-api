@@ -1,0 +1,33 @@
+{
+  "name": "supanova-api",
+  "version": "1.0.0",
+  "description": "Backend for the supanova sql client",
+  "main": "index.js",
+  "scripts": {
+    "activate": "node activate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StarterAppKit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "disposable-email-domains": "^1.0.62",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "flagsmith-nodejs": "^5.0.0",
+    "groq-sdk": "^0.15.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "moment": "^2.30.1",
+    "mysql2": "^3.11.5",
+    "node-apple-receipt-verify": "^1.13.0",
+    "nodemailer": "^6.9.15",
+    "stripe": "^17.3.1",
+    "uuid": "^11.0.1",
+    "verify-apple-id-token": "^3.1.2"
+  }
+}
