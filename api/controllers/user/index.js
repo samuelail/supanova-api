@@ -9,7 +9,7 @@ exports.ping = async (req, res) => {
             status: 'success',
             message: '',
             appInfo: {
-                version: "1.0.1"
+                version: process.env.APP_VERSION
             }
         })
 
