@@ -36,6 +36,7 @@ exports.query = async (req, res) => {
         if (conversation_id) {
             //Validate conversation id
         }
+        console.log(user)
         const message_id = `msg_${uuidv4()}`
         const conv_id = conversation_id || `conversation_${uuidv4()}`
         const messages = await db_helper.getMessages({
